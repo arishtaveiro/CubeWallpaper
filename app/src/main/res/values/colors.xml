@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#355d53</color>
+    <color name="colorPrimaryDark">#355d53</color>
+    <color name="colorAccent">#355d53</color>
+
+    <color name="fab1_color">#4CAF50</color>
+    <color name="fab2_color">#2196F3</color>
+    <color name="fab3_color">#FF5722</color>
+    <color name="trans">#ffFFFF</color>
+
+</resources>

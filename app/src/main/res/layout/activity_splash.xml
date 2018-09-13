@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nebula"
+    tools:context="com.example.arisht.cubewallpaper.Splash">
+
+    <TextView
+        android:text="WALLPAPERS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:textStyle="bold"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="CUBE's"
+
+        android:layout_marginTop="47dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="45dp"
+        android:layout_below="@+id/logo"
+        android:layout_alignEnd="@+id/logo" />
+
+    <ImageView
+        android:background="#ffffff"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/gc"
+        android:layout_marginTop="151dp"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
